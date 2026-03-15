@@ -12,7 +12,7 @@ The algorithm demonstrates an exponential speedup over classical approaches.
 
 ## Contents
 
-1. Reference implementation for a **3-bit secret string (s = 011)** based on IBM Quantum learning resources.
+1. Reference implementation for a **3-bit secret string (s = 110)** based on IBM Quantum learning resources.
 
 2. Implementation of Simon's algorithm for a **5-bit secret string**
 
@@ -27,19 +27,6 @@ Us = 0 (mod 2)
 For the 5-bit implementation the chosen secret string is:
 
 s = 11011
-
----
-
-## Files in the Repository
-
-simons_reference.ipynb
-Implementation of Simon's algorithm for the reference case `s = 011`.
-
-simons_5bit.ipynb
-Quantum circuit implementation for the 5-bit secret string.
-
-classical_solver.py
-Python script used to solve the system of equations `Us = 0 (mod2)`.
 
 ---
 
